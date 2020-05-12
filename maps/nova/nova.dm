@@ -35,14 +35,16 @@
 	#include "structures/closets/security.dm"
 	#include "turfs/outdoors.dm"
 
-	#include "nova-1.dmm"
-	#include "nova-2.dmm"
-	#include "nova-3.dmm"
-	#include "nova-4.dmm"
-	#include "nova-5.dmm"
-	#include "nova-6.dmm"
-	#include "nova-7.dmm"
-	#include "nova-8.dmm"
+	#include "nova-01.dmm"
+	#include "nova-02.dmm"
+	#include "nova-03.dmm"
+	#include "nova-04.dmm"
+	#include "nova-05.dmm"
+	#include "nova-06.dmm"
+	#include "nova-07.dmm"
+	#include "nova-08.dmm"
+	#include "nova-09.dmm"
+	#include "nova-10.dmm"
 
 	#define USING_MAP_DATUM /datum/map/nova
 
