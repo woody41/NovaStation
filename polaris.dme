@@ -2947,13 +2947,5 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\nova\nova.dm"
-#include "maps\submaps\_helpers.dm"
-#include "maps\submaps\space_submaps\space.dm"
-#include "maps\submaps\surface_submaps\mountains\mountains.dm"
-#include "maps\submaps\surface_submaps\mountains\mountains_areas.dm"
-#include "maps\submaps\surface_submaps\plains\plains.dm"
-#include "maps\submaps\surface_submaps\plains\plains_areas.dm"
-#include "maps\submaps\surface_submaps\wilderness\wilderness.dm"
-#include "maps\submaps\surface_submaps\wilderness\wilderness_areas.dm"
 #include "maps\~map_system\maps.dm"
 // END_INCLUDE
