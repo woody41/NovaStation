@@ -248,6 +248,34 @@
 				prob(2);/obj/item/weapon/reagent_containers/syringe/drugs,
 				prob(1);/obj/item/weapon/reagent_containers/syringe/steroid)
 
+/obj/random/canister
+	name = "Random Gas Canister"
+	icon = 'icons/obj/atmos.dmi'
+	icon_state = "yellow"
+	spawn_nothing_percentage = 15
+
+/obj/random/canister/item_to_spawn()
+	return pick(prob(5);/obj/machinery/portable_atmospherics/canister/nitrogen,
+				prob(4);/obj/machinery/portable_atmospherics/canister/oxygen,
+				prob(3);/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+				prob(2);/obj/machinery/portable_atmospherics/canister/phoron,
+				prob(2);/obj/machinery/portable_atmospherics/canister/sleeping_agent,
+				prob(1);/obj/machinery/portable_atmospherics/canister/air,
+				prob(1);/obj/machinery/portable_atmospherics/canister/empty)
+
+/obj/random/engine_canister
+	name = "Random Engine Canister"
+	icon = 'icons/obj/atmos.dmi'
+	icon_state = "yellow"
+	spawn_nothing_percentage = 15
+
+/obj/random/engine_canister/item_to_spawn()
+	return pick(prob(50);/obj/machinery/portable_atmospherics/canister/nitrogen,
+				prob(40);/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+				prob(30);/obj/machinery/portable_atmospherics/canister/phoron,
+				prob(1);/obj/machinery/portable_atmospherics/canister/oxygen,
+				prob(1);/obj/machinery/portable_atmospherics/canister/empty)
+
 /obj/random/cash
 	name = "random currency"
 	desc = "LOADSAMONEY!"

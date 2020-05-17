@@ -232,6 +232,10 @@
 	opacity = 1
 	assembly_type = /obj/structure/door_assembly/door_assembly_mhatch
 
+/obj/machinery/door/airlock/maintenance_hatch/bolted
+	icon_state = "door_locked"
+	locked = 1
+
 /obj/machinery/door/airlock/glass_command
 	name = "Maintenance Hatch"
 	icon = 'icons/obj/doors/Doorcomglass.dmi'

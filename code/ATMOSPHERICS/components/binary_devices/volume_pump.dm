@@ -14,6 +14,9 @@
 	use_power = USE_POWER_IDLE
 	icon_state = "map_on"
 
+/obj/machinery/atmospherics/binary/pump/high_power/on/max_press
+	target_pressure = 15000
+
 /obj/machinery/atmospherics/binary/pump/high_power/update_icon()
 	if(!powered())
 		icon_state = "off"
