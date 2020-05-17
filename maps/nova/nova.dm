@@ -40,11 +40,6 @@
 	#include "nova-03.dmm"
 	#include "nova-04.dmm"
 	#include "nova-05.dmm"
-	#include "nova-06.dmm"
-	#include "nova-07.dmm"
-	#include "nova-08.dmm"
-	#include "nova-09.dmm"
-	#include "nova-10.dmm"
 
 	#define USING_MAP_DATUM /datum/map/nova
 

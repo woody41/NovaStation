@@ -240,9 +240,6 @@
 		name = "\improper [area.name] APC"
 	area.apc = src
 
-	if(istype(area, /area/submap))
-		alarms_hidden = TRUE
-
 	update_icon()
 
 	make_terminal()

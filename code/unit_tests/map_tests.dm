@@ -13,8 +13,7 @@
 					/area/supply/station,
 					/area/mine,
 					/area/vacant/vacant_shop,
-					/area/turbolift,
-					/area/submap					)
+					/area/turbolift,)
 
 	var/list/exempt_from_atmos = typesof(/area/maintenance,
 						/area/storage,
