@@ -53,7 +53,7 @@ var/list/possible_cable_coil_colours = list(
 	icon_state = "0-1"
 	var/d1 = 0
 	var/d2 = 1
-	plane = PLATING_PLANE
+	plane = OBJ_PLANE
 	layer = WIRES_LAYER
 	color = COLOR_RED
 	var/obj/machinery/power/breakerbox/breaker_box
@@ -90,6 +90,7 @@ var/list/possible_cable_coil_colours = list(
 
 /obj/structure/cable/New()
 	..()
+	plane = PLATING_PLANE		// For mapping purposes, cables render above some things.
 
 	// ensure d1 & d2 reflect the icon_state for entering and exiting cable
 
