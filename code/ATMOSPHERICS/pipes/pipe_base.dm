@@ -8,6 +8,7 @@
 	var/volume = 0
 	var/leaking = FALSE // Do not set directly, use set_leaking(TRUE/FALSE)
 
+	plane = OBJ_PLANE
 	layer = PIPES_LAYER
 	use_power = USE_POWER_OFF
 
