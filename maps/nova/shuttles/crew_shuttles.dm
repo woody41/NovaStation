@@ -1,5 +1,5 @@
 //Shuttle 1
-
+/*
 /obj/machinery/computer/shuttle_control/web/shuttle1
 	name = "shuttle control console"
 	shuttle_tag = "Shuttle 1"
@@ -274,3 +274,4 @@
 
 /datum/shuttle_destination/shuttle2/mining_base/get_departure_message()
 	return "Attention, [master.my_shuttle.visible_name] has departed the Wilderness Area."
+*/

@@ -1,3 +1,4 @@
+/*
 /obj/machinery/computer/shuttle_control/multi/response
 	name = "response shuttle console"
 	shuttle_tag = "Response Operations"
@@ -123,3 +124,4 @@
 	name = "Sif Surface"
 	my_landmark = "response_ship_planet"
 	preferred_interim_tag = "response_ship_sky_transit"
+*/

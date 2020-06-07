@@ -1,3 +1,4 @@
+/*
 /obj/turbolift_map_holder/nova
 	icon = 'icons/obj/turbolift_preview_5x5.dmi'
 	depth = 2
@@ -40,3 +41,4 @@
 		/area/turbolift/center_deck_two,
 		/area/turbolift/center_deck_three
 		)
+*/
