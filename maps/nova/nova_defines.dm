@@ -82,8 +82,8 @@
 
 	default_skybox = /datum/skybox_settings/nova
 
-	unit_test_exempt_areas = list(/area/ninja_dojo, /area/ninja_dojo/firstdeck, /area/ninja_dojo/arrivals_dock)
-	unit_test_exempt_from_atmos = list(/area/tcomm/chamber)
+	unit_test_exempt_areas = list()
+	unit_test_exempt_from_atmos = list()
 
 	planet_datums_to_make = list(/datum/planet/sif)
 

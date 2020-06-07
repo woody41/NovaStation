@@ -1,3 +1,4 @@
+/*
 /obj/machinery/computer/shuttle_control/web/ninja
 	name = "stealth shuttle control console"
 	req_access = list(access_syndicate)
@@ -100,3 +101,4 @@
 	name = "Sif Surface"
 	my_landmark = "ninja_planet"
 	preferred_interim_tag = "ninja_sky_transit"
+*/

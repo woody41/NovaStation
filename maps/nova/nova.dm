@@ -6,9 +6,7 @@
 	#include "nova_defines.dm"
 	#include "nova_jobs.dm"
 	#include "nova_elevator.dm"
-	#include "nova_events.dm"
 	#include "nova_presets.dm"
-	#include "nova_shuttles.dm"
 
 	#include "shuttles/crew_shuttles.dm"
 	#include "shuttles/heist.dm"
