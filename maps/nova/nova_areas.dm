@@ -170,6 +170,48 @@
 	name = "Maintenance Central South"
 	icon_state = "maintenance_central_south"
 
+//Construction areas
+
+/area/nova/ship/maintenance/construction/one
+	name = "Construction area #1"
+	icon_state = "maintenance_construction"
+
+/area/nova/ship/maintenance/construction/two
+	name = "Construction area #2"
+	icon_state = "maintenance_construction"
+
+/area/nova/ship/maintenance/construction/three
+	name = "Construction area #3"
+	icon_state = "maintenance_construction"
+
+/area/nova/ship/maintenance/construction/four
+	name = "Construction area #4"
+	icon_state = "maintenance_construction"
+
+/area/nova/ship/maintenance/construction/five
+	name = "Construction area #5"
+	icon_state = "maintenance_construction"
+
+/area/nova/ship/maintenance/construction/six
+	name = "Construction area #6"
+	icon_state = "maintenance_construction"
+
+/area/nova/ship/maintenance/construction/seven
+	name = "Construction area #7"
+	icon_state = "maintenance_construction"
+
+/area/nova/ship/maintenance/construction/eight
+	name = "Construction area #8"
+	icon_state = "maintenance_construction"
+
+/area/nova/ship/maintenance/construction/nine
+	name = "Construction area #9"
+	icon_state = "maintenance_construction"
+
+/area/nova/ship/maintenance/construction/ten
+	name = "Construction area #10"
+	icon_state = "maintenance_construction"
+
 /*
 	+-------------+
 	| Engineering |
@@ -596,7 +638,21 @@
 	+-------+
 */
 
-/area/nova/ship/cargo/
+/area/nova/ship/cargo/area
+	name = "Cargo"
+	icon_state = "cargo_area"
+
+/area/nova/ship/cargo/storage
+	name = "Cargo Storage"
+	icon_state = "cargo_storage"
+
+/area/nova/ship/cargo/qm
+	name = "Cargo Storage"
+	icon_state = "cargo_qm"
+
+/area/nova/ship/cargo/mining
+	name = "Mining"
+	icon_state = "cargo_mining"
 
 /*
 	+---------+
@@ -604,7 +660,13 @@
 	+---------+
 */
 
-/area/nova/ship/command/
+/area/nova/ship/command/iaa
+	name = "Internal Affairs Agent Office"
+	icon_state = "command_iaa"
+
+/area/nova/ship/command/eva
+	name = "EVA"
+	icon_state = "command_eva"
 
 /*
 	+--------+
