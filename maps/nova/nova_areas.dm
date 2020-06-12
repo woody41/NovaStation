@@ -20,6 +20,10 @@
 	name = "Central Hallway East Wing"
 	icon_state = "hallway_east"
 
+/area/nova/ship/hallway/upper
+	name = "Upperdeck Hallway"
+	icon_state = "hallway_upper"
+
 /*
 	+----------+
 	| Civilian |
@@ -170,6 +174,12 @@
 	name = "Maintenance Central South"
 	icon_state = "maintenance_central_south"
 
+//Command
+
+/area/nova/ship/maintenance/command/west
+	name = "Maintenance Command"
+	icon_state = "maintenance_command"
+
 //Construction areas
 
 /area/nova/ship/maintenance/construction/one
@@ -210,6 +220,10 @@
 
 /area/nova/ship/maintenance/construction/ten
 	name = "Construction area #10"
+	icon_state = "maintenance_construction"
+
+/area/nova/ship/maintenance/construction/eleven
+	name = "Construction area #11"
 	icon_state = "maintenance_construction"
 
 /*
@@ -667,6 +681,54 @@
 /area/nova/ship/command/eva
 	name = "EVA"
 	icon_state = "command_eva"
+
+/area/nova/ship/command/foayer
+	name = "Bridge Foayer"
+	icon_state = "command_foayer"
+
+/area/nova/ship/command/bridge
+	name = "Bridge"
+	icon_state = "command_bridge"
+
+/area/nova/ship/command/bridge/secured
+	name = "Bridge Secure Area"
+	icon_state = "command_bridge_secured"
+
+/area/nova/ship/command/meet
+	name = "Meeting Room"
+	icon_state = "command_meet"
+
+/area/nova/ship/command/meet/office
+	name = "Meeting Room"
+	icon_state = "command_meet_office"
+
+/area/nova/ship/command/captain/office
+	name = "Captain's Office"
+	icon_state = "command_captain_office"
+
+/area/nova/ship/command/captain/room
+	name = "Captain's Room"
+	icon_state = "command_captain_room"
+
+/area/nova/ship/command/hop/office
+	name = "Head of Personel's Office"
+	icon_state = "command_hop_office"
+
+/area/nova/ship/command/hop/room
+	name = "Head of Personel's Room"
+	icon_state = "command_hop_room"
+
+/area/nova/ship/command/restroom
+	name = "Bridge Restrooms"
+	icon_state = "command_restroom"
+
+/area/nova/ship/command/teleport
+	name = "Teleport Access"
+	icon_state = "command_teleport"
+
+/area/nova/ship/command/vault
+	name = "Vault"
+	icon_state = "command_vault"
 
 /*
 	+--------+
